@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/selector"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- News title -->
+    <TextView
+        android:id="@+id/title"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:text="Noticia numero 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Author and created at time-->
+    <TextView
+        android:id="@+id/author_and_time"
+        android:text="creado por - fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

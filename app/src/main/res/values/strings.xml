@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ReignNewsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="news_url">https://hn.algolia.com/api/v1/search_by_date?query=android</string>
+    <string name="news_title_placeholder"><![CDATA[<No title>]]></string>
+    <string name="server_error">Server error, please retry</string>
+    <string name="delete">Delete</string>
+    <string name="no_url_provided">This new has no details (no url provided)</string>
+</resources>
